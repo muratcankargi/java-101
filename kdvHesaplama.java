@@ -1,4 +1,3 @@
-package Giris;
 import java.util.Scanner;
 public class kdvHesaplama {
     public static void main(String[] args) {
