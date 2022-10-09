@@ -1,4 +1,3 @@
-package Giris;
 import java.util.Scanner;
 public class kucuktenBuyugeSiralama {
     public static void main(String[] args) {
