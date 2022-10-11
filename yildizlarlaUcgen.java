@@ -1,12 +1,14 @@
+
 import java.util.Scanner;
+
 public class yildizlarlaUcgen {
     public static void main(String[] args) {
-        Scanner input= new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         int n;
-        System.out.println("Bir Sayı Giriniz :");
+        System.out.print("Bir Sayı Giriniz :");
         n = input.nextInt();
 
-        for (int i = 0; i < n-1; i++) {
+        for (int i = 0; i < n - 1; i++) {
             for (int j = (n - i); j >= 0; j--) {
                 System.out.print(" ");
             }
@@ -16,9 +18,9 @@ public class yildizlarlaUcgen {
             System.out.println("");
 
         }
-        int x=2*n-1;
+        int x = 2 * n - 1;
         for (int i = 0; i < n; i++) {
-            for (int k = 0; k <= i+1; k++) {
+            for (int k = 0; k <= i + 1; k++) {
                 System.out.print(" ");
             }
 
@@ -26,7 +28,7 @@ public class yildizlarlaUcgen {
                 System.out.print("*");
             }
             System.out.println("");
-            x-=2;
+            x -= 2;
 
         }
 
