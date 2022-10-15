@@ -1,5 +1,3 @@
-package Arrays;
-
 public class HarmonicAvarage {
     public static void main(String[] args) {
         double[] numbers = {1, 2, 3};
