@@ -8,7 +8,7 @@ public class HarmonicAvarage {
         for (double i : numbers) {
             sum += (1 / i);
         }
-        harmonicAverage = sum / numbers.length;
+        harmonicAverage = numbers.length/numbers;
         System.out.println("Harmonic avarage : " + harmonicAverage);
     }
 }
