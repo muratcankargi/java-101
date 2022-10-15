@@ -1,4 +1,3 @@
-
 public class ArrayLetter {
     public static void main(String[] args) {
         String[][] matrix = new String[7][4];
